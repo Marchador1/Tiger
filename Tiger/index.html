@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiger</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="tiger">
+        <h1>Espaço do Tiger</h1>
+    </div>
+    <table>
+        <thead>
+            <td><img src="imagens/Wild.png" alt=""></td>
+            <td><img src="imagens/Bilhete.png" alt=""></td>
+            <td><img src="imagens/Chapeu.png" alt=""></td>
+        </thead>
+        <tbody>
+            <td id="numb1"></td>
+            <td id="numb2"></td>
+            <td id="numb3"></td>
+        </tbody>
+        <tfooter>
+            <td>teste</td>
+            <td>teste</td>
+            <td>teste</td>
+        </tfooter>
+    </table>
+    <div>
+        <label id="banca">R$ </label>
+        <label id="aposta">R$</label>
+        <label id="ganho">R$</label>  
+    </div>
+    <div>
+        <button onclick="turbo()"></button>
+        <button onclick="menos()"></button>
+        <button onclick="roleta()" class="girar"><img src="imagens/Bt_static.png" alt=""></button>
+        <button onclick="mais()"></button>
+        <button onclick="auto()"></button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
